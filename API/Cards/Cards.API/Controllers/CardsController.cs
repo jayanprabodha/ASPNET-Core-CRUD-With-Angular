@@ -50,7 +50,7 @@ namespace Cards.API.Controllers
         }
 
         //Updating A Card
-        [HttpPost]
+        [HttpPut]
         [Route("{id:guid}")]
         public async Task<IActionResult> UpdateCard([FromRoute] Guid id, [FromBody] Card card)
         {
