@@ -1,0 +1,3 @@
+cd .\cards\src\app\service\
+inside location cmd
+ng g s cards
